@@ -5,8 +5,8 @@
       // Sets up the background cover image and the overlay gradient.
       .welcome {
         position: relative;
-        height: 100vh;
-        min-height: 700px;
+        height: 70vh;
+        min-height: 500px;
         background: url('../images/app-promo/welcome-cover.jpg') no-repeat center center fixed;
         background-size: cover;
 
@@ -19,7 +19,7 @@
           right: 0;
           bottom: 0;
           opacity: .9;
-          background: theme-color("dark");
+          background: theme-color("blue");
         }
 
         // Responsive adjustments.
