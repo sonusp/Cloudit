@@ -1,0 +1,135 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600|Roboto+Mono");
+:root {
+  --blue: #007bff;
+  --indigo: #674eec;
+  --purple: #8445f7;
+  --pink: #ff4169;
+  --red: #c4183c;
+  --orange: #fb7906;
+  --yellow: #ffb400;
+  --green: #17c671;
+  --teal: #1adba2;
+  --cyan: #00b8d8;
+  --white: #fff;
+  --gray: #868e96;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #5A6169;
+  --success: #17c671;
+  --info: #00b8d8;
+  --warning: #ffb400;
+  --danger: #c4183c;
+  --light: #e9ecef;
+  --dark: #212529;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: "Roboto Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #5A6169;
+  background-color: #fff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.75rem;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  color: #212529;
+}
+
+h1, .h1 {
+  font-size: 3.052rem;
+  letter-spacing: -0.0625rem;
+  line-height: 3rem;
+}
+
+
+h4, .h4 {
+  font-size: 1.563rem;
+  line-height: 2rem;
+}
+
+p {
+  margin-bottom: 1.75rem;
+}
+
+small,
+.small {
+  font-size: 80%;
+  font-weight: 300;
+}
+.nfeat-ttl-box h1{
+    font-size: 33px;
+    text-align: center;
+    padding-top: 30px;
+}
+.nfeat-ttl-box p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15px;
+}
+.card-title {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.b {
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+
+#color{
+    background-color: #feb155;
+}
+#color1{
+    background-color: #b764d8;
+}
+#color2{
+    background-color: #1565c0;
+}
+#color3{
+    background-color: #39dcb1;
+}
+#color4{
+    background-color: #ff6659;
+}
+#color5{
+    background-color: #ffab00;
+}
+#color6{
+    background-color: #607d8b;
+}
+#color7{
+    background-color: #009688;
+}
