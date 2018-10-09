@@ -274,4 +274,19 @@
     color: #5a6169fa;
 }
 
-
+@media screen and (max-width:720px){   
+    #word{ 
+    width: 100%;
+    max-width: 120px;
+    height: auto; 
+    padding-bottom:15px;    
+   } 
+}
+   
+   .word{ 
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    float: right;
+    padding-left: 30px;   
+   }
