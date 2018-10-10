@@ -294,3 +294,19 @@
     float: right;
     padding-top: 10px;
 }
+
+.card_logo{
+    width:50px;
+}
+
+.card_t{
+    text-align: center;
+    font-weight: 350;
+    padding-top: 18px; 
+}
+
+.crd_t{
+    text-align: center;
+    font-weight: 325;
+    padding-top: 15px;
+}
