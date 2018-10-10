@@ -1,0 +1,332 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600|Roboto+Mono");
+:root {
+  --blue: #007bff;
+  --indigo: #674eec;
+  --purple: #8445f7;
+  --pink: #ff4169;
+  --red: #c4183c;
+  --orange: #fb7906;
+  --yellow: #ffb400;
+  --green: #17c671;
+  --teal: #1adba2;
+  --cyan: #00b8d8;
+  --white: #fff;
+  --gray: #868e96;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #5A6169;
+  --success: #17c671;
+  --info: #00b8d8;
+  --warning: #ffb400;
+  --danger: #c4183c;
+  --light: #e9ecef;
+  --dark: #212529;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-monospace: "Roboto Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #5A6169;
+  background-color: #fff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.75rem;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  color: #212529;
+}
+
+h1, .h1 {
+  font-size: 3.052rem;
+  letter-spacing: -0.0625rem;
+  line-height: 3rem;
+}
+
+
+h4, .h4 {
+  font-size: 1.563rem;
+  line-height: 2rem;
+}
+
+p {
+  margin-bottom: 1.75rem;
+}
+
+small,
+.small {
+  font-size: 80%;
+  font-weight: 300;
+}
+#head{
+    font-size: 33px;
+    text-align: center;
+    font-family:inherit;
+    font-weight: 600;
+}
+#head2{
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 40;
+    word-spacing: 4px;
+    line-height: 25px;
+    
+}
+.abt-vlu-wrap {
+    background-color: #f4f3f9;
+    padding: 70px 0
+}
+ .abt-vlu-wrap {
+        padding: 30px 0 50px
+    }
+
+.text{
+    text-align: center;
+    font-size: 40px;
+    font-family: inherit;
+    padding-top: 40px;
+}
+.text2{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.abt-vlu-tab-contnt {
+    background-color: #2f39bf;
+    padding: 25px 35px 45px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-height: 440px;
+    position: relative
+}
+
+.abt-vlu-tab-contnt h3 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500
+}
+
+.abt-vlu-tab-contnt p {
+    color: #fff;
+    font-size: 20px;
+    width: 80%
+}
+
+.abt-vlu-tab-contnt-btn {
+    position: absolute;
+    right: 25px;
+    bottom: 25px
+}
+
+.abt-vlu-tab-contnt-btn>a {
+    display: inline-block;
+    background-color: #fff;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 5px
+}
+
+.abt-vlu-tab-contnt-btn>a i {
+    color: #000;
+    font-size: 30px;
+    line-height: 30px
+}
+    .abt-vlu-tab-contnt {
+        min-height: inherit;
+        padding: 5px 15px 15px
+    }
+    .abt-vlu-tab-contnt h3 {
+        font-size: 28px;
+        line-height: 36px
+    }
+    .abt-vlu-tab-contnt p {
+        width: 100%;
+        font-size: 18px;
+        margin-bottom: 50px
+    }
+    .abt-vlu-tab-contnt-btn>a {
+        width: 30px;
+        height: 30px
+    }
+    .abt-vlu-tab-contnt-btn>a i {
+        font-size: 24px;
+        line-height: 26px
+    }
+.tab-content>.tab-pane {
+    display: none;
+    visibility: hidden
+}
+
+.tab-content>.active {
+    display: block;
+    visibility: visible
+}
+.abt-vlu-cw-logo {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 115px
+}
+ .abt-vlu-cw-logo {
+        right: 50%;
+        top: 100px;
+        margin-right: -82px
+    }
+.abt-vlu-cw-logo {
+        margin-right: -60px;
+        width: 120px;
+        height: 120px;
+        background-position: center -795px
+    }
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto
+}
+.abt-vlu-ttl-wrap {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.abt-vlu-ttl-wrap h2 {
+    color: #091e42;
+    font-size: 40px;
+    font-weight: 500
+}
+
+.abt-vlu-ttl-wrap p {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#demo{
+    padding-top: 100px;
+}
+.demo1 h1{
+    padding-bottom: -200px;
+    font-size: 58px; 
+    text-align: center;
+    color: white;
+}
+.demo1 p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+.demo2 p{
+    font-size: 29px;
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+.wt-sig-prc-wrapper {
+    background-color: #2e39bf;
+    padding: 80px 15px 200px 1px;
+    text-align: center;
+    position: relative;
+    overflow: hidden
+}
+
+.wt-sig-prc-wrapper.wt-sig-prc-no-box {
+    padding-bottom: 140px
+}
+.wt-sig-prc-wrapper h2 {
+    text-align: center;
+    font-size: 39px;
+    margin: 0;
+    color: #fff;
+    font-weight: 80;
+    font-family: sans-serif;
+}
+.wt-sig-prc-wrapper p {
+    text-align: center;
+    font-size: 20px;
+    margin: 15px 0 30px 0;
+    color: white;
+    font-weight: 20;
+        
+}
+
+.cw-glb-btn,
+.cw-glb-btn_blank {
+    border: 0;
+    color: #192072 !important;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 700;
+    background-color:orange;
+    border-radius: 6px !important;
+    padding: 10px 24px;
+    border: 2px solid orange;
+    text-transform: uppercase;
+    -webkit-box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, .2) !important;
+    -moz-box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, .2) !important;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, .2) !important;
+    transition: all .3s ease-in-out
+}
+
+.cw-glb-btn:hover,
+.cw-glb-btn:focus,
+.cw-glb-btn:active {
+    background-color: #74ffda !important;
+    border-color: #74ffda !important
+}
+
+.cw-glb-btn_blank {
+    color: #fff !important;
+    border-color: #fff !important;
+    background-color: transparent !important
+}
+
+.cw-glb-btn_blank:hover {
+    background-color: #fff !important;
+    color: #1f2d3d !important
+}
+.img-pic{
+    height: auto;
+    width: 700px;
+    padding-right: 300px;
+}
+.img-pic1{
+    height: auto;
+    width: 460px;
+    padding-right: 100px;
+    padding-top: 80px;
+}
